@@ -6,7 +6,7 @@ import hu.meiit.haladojava.exceptions.StoreFullException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StoreImpl implements Store {
+public class StoreImpl implements StoreReader, StoreWriter{
     private static final int DEFAULT_STORE_CAPACITY = 10;
     private int storeCapacity = DEFAULT_STORE_CAPACITY;
     private List<Product> productList = new ArrayList<>();

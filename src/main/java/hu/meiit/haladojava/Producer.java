@@ -3,9 +3,9 @@ package hu.meiit.haladojava;
 import hu.meiit.haladojava.exceptions.StoreFullException;
 
 public class Producer {
-    private final Store store;
+    private final StoreWriter store;
 
-    public Producer(Store store) {
+    public Producer(StoreWriter store) {
         this.store = store;
     }
 

@@ -3,9 +3,9 @@ package hu.meiit.haladojava;
 import hu.meiit.haladojava.exceptions.StoreEmptyException;
 
 public class Consumer {
-    private final Store store;
+    private final StoreReader store;
 
-    public Consumer(Store store) {
+    public Consumer(StoreReader store) {
         this.store = store;
     }
 
